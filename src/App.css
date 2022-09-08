@@ -1,0 +1,539 @@
+@font-face {
+  font-family: "Proxima Soft";
+  src: url(../src/assets/fonts/ProximaSoft-Bold.ttf) format("truetype");
+}
+@font-face {
+  font-family: "Proxima Soft Regular";
+  src: url(../src/assets/fonts/ProximaSoft-Regular.ttf) format("truetype");
+}
+
+.App {
+  /* text-align: center;
+justify-items: center; */
+}
+
+.header {
+  color: white;
+  vertical-align: center;
+  background-color: #e52722;
+  height: 228px;
+  gap: 16px;
+}
+/* .vector1, .vector2 {
+position: relative;
+background: #FFFFFF;
+border-radius: 50px;
+width: 21px;
+height: 90px;
+transform: rotateZ(-25deg);
+margin:5px;
+opacity: 70%;
+right: -11.5%;
+
+}
+.vector3, .vector4 {
+position: relative;
+background: #FFFFFF;
+border-radius: 50px;
+width: 21px;
+height: 90px;
+transform: rotateZ(25deg);
+margin:5px;
+}
+
+.vector5 {
+position: relative;
+background: #FFFFFF;
+border-radius: 50px;
+width: 21px;
+height: 65px;
+transform: rotateZ(25deg);
+margin:5px;
+top: 25px;
+}
+.vector6 {
+position: relative;
+background: #FFFFFF;
+border-radius: 100px;
+width: 21px;
+height: 21px;
+transform: rotateZ(25deg);
+margin:5px;
+top: 5px;
+right: 4%;
+
+}
+
+.vector7, .vector8 {
+position: relative;
+background: #FFFFFF;
+border-radius: 50px;
+width: 21px;
+height: 90px;
+transform: rotateZ(25deg);
+margin:5px;
+opacity: 70%;
+right: 7%;
+}
+
+
+
+
+.vector9{
+  position: relative;
+background: #FFFFFF;
+border-radius: 50px;
+width: 21px;
+height: 85px;
+margin:5px;
+top: 3px;
+right: 24%;
+
+} */
+
+.header h1 {
+  font-family: Proxima Soft;
+  font-weight: 800 !important;
+  size: 32px;
+  line-height: 40px;
+}
+.header h2 {
+  font-family: Proxima Soft;
+  font-weight: 600 !important;
+  size: 24px;
+  line-height: 40px;
+  font-style: italic;
+  text-transform: uppercase;
+}
+.content {
+  display: flex;
+  text-align: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.header-logo {
+  margin-top: -20px;
+  position: relative;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: -10 auto;
+}
+
+.footer {
+  color: white;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  background-color: #e52722;
+  padding: 2%;
+}
+.footer-contact,
+.footer-infomation {
+  align-content: center;
+}
+
+.contact-title {
+  font-family: Proxima Soft;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: uppercase;
+  margin-top: 20px;
+}
+
+.phoneNumber {
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 100%;
+  text-transform: uppercase;
+}
+.email {
+  text-align: center !important;
+  background-color: #ffffff;
+  border-radius: 50px;
+  color: #e52722;
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  line-height: 24px;
+  padding: 0px 16px;
+  text-transform: uppercase;
+  width: 100%;
+  gap: 10px
+}
+.info-title {
+  margin-top: 5%;
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 120%;
+  letter-spacing: -0.04em;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+  flex: none;
+  order: 0;
+  align-self: stretch;
+  flex-grow: 0;
+}
+.info {
+  font-family: "Proxima Soft Regular";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 120%;
+  letter-spacing: -0.04em;
+  font-feature-settings: "pnum" on, "lnum" on;
+  color: #ffffff;
+
+}
+
+.logo {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.logo-winmart {
+  background-color: #e52722;
+  border-radius: 50px;
+  width: 33%;
+  height: 42px;
+  align-items: center;
+  text-align: center;
+}
+.logo-drWin {
+  background-color: #3061be;
+  border-radius: 50px;
+  width: 33%;
+  height: 42px;
+  align-items: center;
+  justify-content: center;
+  margin: 10px;
+  display: flex;
+  flex-direction: row;
+}
+.logo-drWin p {
+  display: flex;
+  position: relative;
+  font-family: "Proxima Soft";
+  font-weight: bold;
+  color: #ffffff;
+  font-size: 26px;
+  top: 15%;
+}
+.logo-phuclong {
+  background-color: #205d32;
+  border-radius: 50px;
+  width: 33%;
+  height: 42px;
+  align-items: center;
+  text-align: center;
+}
+
+.slogan {
+  font-family: "Proxima Soft";
+  text-transform: uppercase;
+  font-weight: bold;
+  text-align: center;
+  letter-spacing: -0.05em;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.listProduct {
+  margin-top: 20%;
+  display: grid;
+  grid-template-columns: 50% 50%;
+  margin-bottom: 10%;
+
+}
+.card {
+  position: relative;
+  display: flex;
+  height: 100%;
+  margin: 5px;
+  text-align: center;
+  justify-content: center;
+}
+.card-image {
+  width: 160px;
+  height: 120px;
+}
+
+.card-title {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  letter-spacing: -0.06em;
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 20px;
+  line-height: 100%;
+  color: #1d1d1d;
+}
+
+.price {
+  text-decoration-line: line-through;
+}
+
+.sellPrice {
+  font-family: "Proxima Soft";
+  font-weight: 800;
+  font-size: 32px;
+  letter-spacing: -0.05em;
+  color: #e52722;
+  display: inline-block;
+  margin: 0;
+  margin-top: -12%;
+}
+.productName {
+  font-family: "Proxima Soft";
+  font-weight: 600;
+  font-size: 14px;
+  letter-spacing: -0.07em;
+  margin-top: -5%;
+  color: #1c1c1c;
+}
+
+.slider {
+  width: 100%;
+  text-align: center;
+  overflow: hidden;
+}
+
+.slides {
+  height: 300px;
+  display: flex;
+  overflow-x: auto;
+  border-radius: 5px;
+  scroll-behavior: smooth;
+  -webkit-overflow-scrolling: touch;
+  scroll-snap-points-x: repeat(300px);
+  scroll-snap-type: mandatory;
+}
+.slides::-webkit-scrollbar {
+  display: none;
+}
+
+.slides > div {
+  flex-shrink: 0;
+  width: 260px;
+  height: 250px;
+  border-radius: 20px;
+  background: #e52722;
+  transform: scale(1);
+  transition: transform 0.5s;
+  position: relative;
+  display: flex;
+  font-size: 100px;
+  margin: 5px;
+}
+
+.slider > a {
+  display: inline-flex;
+  width: 15px;
+  height: 15px;
+  background: rgba(0, 0, 0, 0.1);
+  text-decoration: none;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  margin: 5px;
+  position: relative;
+}
+.slider > a:active {
+  top: 1px;
+  background-color: #000;
+}
+.slider > a:focus {
+  background-color: #000;
+}
+
+.moreBtn {
+  width: 25px;
+  height: 25px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  display: flex;
+  margin-right: -2rem;
+}
+
+.i {
+  width: 12px;
+  margin: 0 auto;
+}
+
+.toast {
+  background-color: #1d1d1d;
+  font-size: 14px;
+  font-weight: 500;
+  color: white;
+  height: 45px;
+  width: 150px;
+  padding: 15px;
+  border-radius: 20px;
+  opacity: 80%;
+}
+.text1 {
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  color: white;
+  font-family: Proxima Soft;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-left: 5%;
+  margin-top: 5%;
+}
+.text2 {
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 16px;
+  color: #e52722;
+  font-family: Proxima Soft;
+  width: 100%;
+  margin-left: 5%;
+  background-color: white;
+  border-radius: 30px;
+  padding: 8px;
+  gap: 10px;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.text3 {
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  color: white;
+  font-family: Proxima Soft;
+  margin-left: -13%;
+}
+.number {
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 78px;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  margin-left: 5%;
+}
+.cardContent {
+  position: relative;
+  margin: 10px;
+  justify-content: left;
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+}
+.number {
+  font-size: 78;
+  color: white;
+  font-weight: 800;
+  display: flex;
+}
+
+.percent {
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 49px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  vertical-align: bottom;
+}
+
+.cardContent3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.cardText3 {
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 48px;
+  line-height: 100%;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.cardTag3 {
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 20px;
+  line-height: 32px;
+  text-align: center;
+  letter-spacing: -0.04em;
+  text-transform: uppercase;
+  color: #e52722;
+  padding: 6px 16px 2px 16px;
+  background: #ffffff;
+  border-radius: 30px;
+  margin: 10px auto;
+}
+
+.pl {
+  font-family: "Proxima Soft";
+  font-style: normal;
+  font-weight: 800;
+  font-size: 24px;
+  letter-spacing: -0.04em;
+  color: #ffffff;
+  position: relative;
+  top: 20%;
+}
+.btnReg {
+  text-decoration:none !important;
+  margin: 0 auto !important;
+  margin-top: 5% !important;
+  display: flex !important;
+  flex-direction: row !important;
+  justify-content: center !important;
+  align-items: center !important;
+  gap: 8px !important;
+  width: 90% !important;
+  height: 56px !important;
+  background-color: #e52722 ;
+  border-radius: 53.1538px !important;
+  border: none ;
+  font-family: Proxima Soft !important;
+  font-size: 20px !important;
+  color: white;
+  text-transform: uppercase;
+}
+
+/* REGISTER FORM */
+
+.logo{
+  padding: 30px;
+}
+
+.registerForm{
+  align-items: center;
+  justify-content: left;
+}
+
+.inputForm{
+  width: 90vw !important;
+  padding: 10px !important;
+  padding-left: 10px !important;
+}

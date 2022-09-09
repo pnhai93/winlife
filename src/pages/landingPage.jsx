@@ -54,12 +54,8 @@ const LandingPage = () => {
       <div className="slider">
         <div className="slides">
           <div id="slide-1" className="slide">
-            <Overlay id="1" delay={3000} target={target.current} show={show} placement="left">
-              {(props) => (
-                <Tooltip className="toast" {...props}>
-                  Số lượng quà tặng có hạn, chương trình có thể kết thúc sớm hơn dự kiến
-                </Tooltip>
-              )}
+            <Overlay  className="toast" id="1" delay={3000} target={target.current} show={show} placement="left">
+              {(props) => <Tooltip {...props}>Số lượng quà tặng có hạn, chương trình có thể kết thúc sớm hơn dự kiến</Tooltip>}
             </Overlay>
             <div className="cardContent">
               <div className="text1">
@@ -81,12 +77,8 @@ const LandingPage = () => {
             </div>
           </div>
           <div id="slide-2" className="slide">
-            <Overlay id="2" delay={3000} target={target1.current} show={show1} placement="left">
-              {(props) => (
-                <Tooltip className="toast" {...props}>
-                  Số lượng quà tặng có hạn, chương trình có thể kết thúc sớm hơn dự kiến
-                </Tooltip>
-              )}
+            <Overlay className="toast" id="2" delay={3000} target={target1.current} show={show1} placement="left">
+              {(props) => <Tooltip {...props}>Số lượng quà tặng có hạn, chương trình có thể kết thúc sớm hơn dự kiến</Tooltip>}
             </Overlay>
             <div className="cardContent">
               <div className="text1">
@@ -116,12 +108,8 @@ const LandingPage = () => {
             </div>
           </div>
           <div id="slide-4" className="slide" style={{ backgroundColor: "#0C713D" }}>
-            <Overlay id="4" delay={3000} target={target3.current} show={show3} placement="left">
-              {(props) => (
-                <Tooltip className="toast" {...props}>
-                  Số lượng quà tặng có hạn, chương trình có thể kết thúc sớm hơn dự kiến
-                </Tooltip>
-              )}
+            <Overlay className="toast" id="4" delay={3000} target={target3.current} show={show3} placement="left">
+              {(props) => <Tooltip {...props}>Số lượng quà tặng có hạn, chương trình có thể kết thúc sớm hơn dự kiến</Tooltip>}
             </Overlay>
             <div className="cardContent">
               <div className="text1">

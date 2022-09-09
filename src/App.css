@@ -19,77 +19,7 @@ justify-items: center; */
   height: 228px;
   gap: 16px;
 }
-/* .vector1, .vector2 {
-position: relative;
-background: #FFFFFF;
-border-radius: 50px;
-width: 21px;
-height: 90px;
-transform: rotateZ(-25deg);
-margin:5px;
-opacity: 70%;
-right: -11.5%;
 
-}
-.vector3, .vector4 {
-position: relative;
-background: #FFFFFF;
-border-radius: 50px;
-width: 21px;
-height: 90px;
-transform: rotateZ(25deg);
-margin:5px;
-}
-
-.vector5 {
-position: relative;
-background: #FFFFFF;
-border-radius: 50px;
-width: 21px;
-height: 65px;
-transform: rotateZ(25deg);
-margin:5px;
-top: 25px;
-}
-.vector6 {
-position: relative;
-background: #FFFFFF;
-border-radius: 100px;
-width: 21px;
-height: 21px;
-transform: rotateZ(25deg);
-margin:5px;
-top: 5px;
-right: 4%;
-
-}
-
-.vector7, .vector8 {
-position: relative;
-background: #FFFFFF;
-border-radius: 50px;
-width: 21px;
-height: 90px;
-transform: rotateZ(25deg);
-margin:5px;
-opacity: 70%;
-right: 7%;
-}
-
-
-
-
-.vector9{
-  position: relative;
-background: #FFFFFF;
-border-radius: 50px;
-width: 21px;
-height: 85px;
-margin:5px;
-top: 3px;
-right: 24%;
-
-} */
 
 .header h1 {
   font-family: Proxima Soft;
@@ -372,15 +302,15 @@ right: 24%;
 }
 
 .toast {
-  background-color: #1d1d1d;
-  font-size: 14px;
-  font-weight: 500;
-  color: white;
-  height: 45px;
-  width: 150px;
-  padding: 15px;
-  border-radius: 20px;
-  opacity: 80%;
+  background-color: #1d1d1d !important;
+  font-size: 14px !important;
+  font-weight: 500 !important;
+  color: white !important;
+  height: 45px !important;
+  width: 150px !important;
+  padding: 15px !important;
+  border-radius: 20px !important;
+  opacity: 80% !important;
 }
 .text1 {
   letter-spacing: -0.04em;
@@ -394,7 +324,6 @@ right: 24%;
   flex-direction: row;
   justify-content: space-between;
   margin-left: 5%;
-  margin-top: 5%;
 }
 .text2 {
   letter-spacing: -0.04em;
@@ -536,4 +465,71 @@ right: 24%;
   width: 90vw !important;
   padding: 10px !important;
   padding-left: 10px !important;
+}
+
+.refCode{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 5px;
+
+}
+
+.confirmForm{
+font-family:Proxima Soft ;
+}
+
+.refCode input:focus{
+  border: none;
+}
+.refCode input{
+  width: 40px;
+  margin: 5px;
+  text-align: center;
+  border: none;
+  border-bottom: 1px solid black;
+  
+}
+.modal{
+  --bs-modal-header-border-width:0px !important;
+--bs-modal-border-radius:24px !important;
+font-family:  Proxima Soft;
+}
+.isBought{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 20px;
+}
+.isBought .checkbox{
+  padding: 16px;
+  margin: 5px;
+  border: 1px solid #D1D1D1;
+  border-radius: 16px;
+  padding-left: 40px;
+}
+.refSource{
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  margin: 20px;
+}
+.refSource .checkbox{
+padding: 16px;
+  margin: 5px;
+  border: 1px solid #D1D1D1;
+  border-radius: 16px;
+  padding-left: 40px;
+}
+.refSource .checkbox:active{
+  border: 1px solid #e52722 !important;
+  background-color: rgba(229, 39, 34, 0.1)!important;
+}
+
+.form-check-input:active {
+  background-color: #E52722 !important;
+}
+.form-check:focus{
+    background-color: rgba(229, 39, 34, 0.1)!important;
+
 }
